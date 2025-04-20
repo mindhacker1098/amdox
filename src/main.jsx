@@ -4,7 +4,8 @@ import { HelmetProvider } from 'react-helmet-async';
 import Preloader from './Shared/Preloader/Preloader';
 import './index.css';
 import { RouterProvider } from 'react-router-dom';
-import Router from "./Router/router"; // check case
+import router from "./Router/router"; // Fix case
+
 
 const helmetContext = {}; // Define helmetContext here
 
